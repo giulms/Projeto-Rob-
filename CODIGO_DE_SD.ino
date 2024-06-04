@@ -41,7 +41,6 @@ void hcsr04(){
   Serial.print("Distancia "); //IMPRIME O TEXTO NO MONITOR SERIAL
   Serial.print(result); ////IMPRIME NO MONITOR SERIAL A DISTÂNCIA MEDIDA
   Serial.println("cm"); //IMPRIME O TEXTO NO MONITOR SERIAL
-  // read the state of the pushbutton value
 
   if (distancia > 50){
     // Ligar motores
