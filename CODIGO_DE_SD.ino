@@ -45,14 +45,8 @@ void hcsr04(){
 
   if (distancia > 50){
     // Ligar motores
-    digitalWrite(motor1, 120);
-    digitalWrite(motor2, 120);
-    delay(500);
-    digitalWrite(motor1, 120);
-    delay(500);
-    digitalWrite(motor1, 120);
-    digitalWrite(motor2, 120);
-    delay(500);
+    digitalWrite(motor1, HIGH);
+    digitalWrite(motor2, HIGH);
   } else {
     // desligar motores
     digitalWrite(motor1, LOW);
